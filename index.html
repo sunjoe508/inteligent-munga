@@ -90,10 +90,11 @@
 </head>
 <body>
   <div id="root"></div>
+  <!-- Application Entry Point -->
+  <script type="module" src="index.tsx"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        // Removed leading slash to prevent origin mismatch in sandboxed environments
         navigator.serviceWorker.register('sw.js').catch(err => {
           console.warn('ServiceWorker registration failed: ', err);
         });

@@ -1,8 +1,9 @@
 
-const CACHE_NAME = 'munga-cache-v1';
+const CACHE_NAME = 'munga-cache-v2';
 const ASSETS = [
   './',
   './index.html',
+  './index.tsx',
   './logo.svg',
   './manifest.json'
 ];
