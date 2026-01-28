@@ -1,0 +1,19 @@
+
+{
+  "name": "INTELIGENT MUNGA",
+  "short_name": "MungaAI",
+  "description": "Premium Strategic AI Terminal for Research and Intel.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#00f3ff",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait"
+}
